@@ -1,12 +1,6 @@
 return {
 	{ "ficcdaf/ashen.nvim" },
-	{
-		"folke/which-key.nvim",
-		event = "VeryLazy",
-		keys = {
-			{ "<leader><leader>wk", "<CMD>WhichKey<CR>", desc = "Open which key ui" },
-		},
-	},
+	{ "folke/which-key.nvim", event = "VeryLazy" },
 	{
 		"lukas-reineke/indent-blankline.nvim",
 		main = "ibl",
