@@ -1,6 +1,7 @@
 return {
 	{
 		"ibhagwan/fzf-lua",
+		event = "VeryLazy",
 		dependencies = { "nvim-tree/nvim-web-devicons" },
 		keys = {
 			{ "<leader>ff", "<cmd>FzfLua files<cr>", desc = "Find Files" },
@@ -29,6 +30,7 @@ return {
 	},
 	{
 		"ThePrimeagen/harpoon",
+		event = "VeryLazy",
 		dependencies = {
 			"nvim-lua/plenary.nvim",
 		},

@@ -3,6 +3,7 @@ return {
 	{ "folke/which-key.nvim", event = "VeryLazy" },
 	{
 		"lukas-reineke/indent-blankline.nvim",
+		event = { "BufReadPre", "BufNewFile" },
 		main = "ibl",
 		opts = { indent = { char = "┆" } },
 	},
@@ -21,5 +22,18 @@ return {
 				},
 			})
 		end,
+	},
+	{
+		"nvimdev/dashboard-nvim",
+		event = "VimEnter",
+		opts = {
+			config = {
+				week_header = {
+					enable = true,
+				},
+			},
+			shortcut_type = "number",
+		},
+		dependencies = { { "nvim-tree/nvim-web-devicons" } },
 	},
 }
