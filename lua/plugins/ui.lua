@@ -1,5 +1,6 @@
 return {
 	{ "ficcdaf/ashen.nvim" },
+	{ "Mofiqul/dracula.nvim" },
 	{ "folke/which-key.nvim", event = "VeryLazy" },
 	{
 		"lukas-reineke/indent-blankline.nvim",
