@@ -1,8 +1,10 @@
-# LVIM
+LVIM
+====
 
 Lightweight NVIM config for general writing purpose!
 
-## KeyMaps
+KeyMaps
+-------
 
 This section contains manually mapped keys in this project.
 
@@ -54,6 +56,13 @@ Leader key in default configuration is <kbd>SPACE</kbd>
 | <kbd>A-3</kbd>                              | Selects third buffer from harpoons list  |
 | <kbd>A-4</kbd>                              | Selects fourth buffer from harpoons list |
 
-## License
+### Zen Mode
+
+| Keys                           | Descriptions    |
+|--------------------------------|-----------------|
+| <kbd>leader</kbd> <kbd>z</kbd> | Toggle zen mode |
+
+License
+-------
 
 [Unlicensed](./LICENSE)
